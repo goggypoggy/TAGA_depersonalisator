@@ -1,0 +1,6 @@
+INFO: User Timofey Egorov with phone number +7(913)-355-29-81 sent a message to user Artemi Stradin with number +7(981)245-12-95
+Message: How are you, friend? Do you like last codeforces round?
+~~~
+INFO: User Alice Perfileva with phone number +7(913)-355-29-88 sent a message to user Timofey Egorov with number +7(981)275-12-95
+Message: YYYYasddY^^gsggg kek w Do you like last codeforces round?
+~~~

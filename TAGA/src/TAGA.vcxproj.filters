@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\parser">
+      <UniqueIdentifier>{5b261a6d-d575-4523-8e6e-2fccaa7d2bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\scanner">
+      <UniqueIdentifier>{8367af5c-d2aa-438f-a665-fc451311898a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\encryption">
+      <UniqueIdentifier>{d9218b08-8a0d-41dd-89e6-9881501aef6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>Файлы ресурсов\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="scanner.cpp">
+      <Filter>Файлы ресурсов\scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="encryptor.cpp">
+      <Filter>Файлы ресурсов\encryption</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="parser.h">
+      <Filter>Файлы ресурсов\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="scanner.h">
+      <Filter>Файлы ресурсов\scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="encryptor.h">
+      <Filter>Файлы ресурсов\encryption</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
